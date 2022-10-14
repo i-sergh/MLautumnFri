@@ -1,0 +1,21 @@
+Для создания виртуальной среды команда:
+python -m venv venvs\myVenv
+
+Для активации этой среды мы должны 
+докричаться до скрипта activate из
+консоли
+
+Например:
+это полный путь
+C:\Users\admin> C:\Users\admin\venvs\myVenv\Scripts\activate
+
+
+C:\Users\admin> venvs\myVenv\Scripts\activate
+
+Установка библиотек
+
+pip install -r req.txt
+
+Для запуска юпитера:
+C:\Users\admin> jupyter notebook
+
